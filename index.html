@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="container" align="center">
+		
+	</div>
+	<table border="1px" align="center">
+		<tr>
+			<th colspan="2">Controller</th>
+		</tr>
+		<tr>
+			<th colspan="2">Run Count(<span id="count">0</span>)</th>
+		</tr>
+		<tr>
+			<td>
+				<label>Screen Width</label>
+				<input type="text" name="screenw" id="screenw">
+			</td>
+			<td>
+				<label>Screen Height</label>
+				<input type="text" name="screenh" id="screenh">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Point A-top</label>
+				<input type="text" name="At" id="At">
+			</td>
+			<td>
+				<label>Point A-left</label>
+				<input type="text" name="Al" id="Al">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Point B-top</label>
+				<input type="text" name="Bt" id="Bt">
+			</td>
+			<td>
+				<label>Point B-left</label>
+				<input type="text" name="Bl" id="Bl">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Point C-top</label>
+				<input type="text" name="Ct" id="Ct">
+			</td>
+			<td>
+				<label>Point C-left</label>
+				<input type="text" name="Cl" id="Cl">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<button onclick="change()">Change</button>
+				<button onclick="start()">Random</button>
+				<button onclick="remove()">Clear</button>
+			</td>
+		</tr>
+	</table>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+		start();
+	</script>
+</body>
+</html>
